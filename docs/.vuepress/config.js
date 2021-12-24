@@ -1,4 +1,5 @@
 module.exports = () => ({
+  base: '/fe-face/', 
   locales: {
     '/': {
       lang: 'zh-CN',
