@@ -1,1 +1,1 @@
-export { default } from "/Users/yofoon/Documents/mayf/FE-FACE/docs/.vuepress/enhanceApp.js"
+export { default } from "/Users/yofoon/Documents/mayf/fe-face/docs/.vuepress/enhanceApp.js"

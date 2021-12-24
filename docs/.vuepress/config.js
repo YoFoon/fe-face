@@ -1,4 +1,4 @@
-module.exports = () => ({
+module.exports = {
   base: '/fe-face/', 
   locales: {
     '/': {
@@ -20,7 +20,7 @@ module.exports = () => ({
     ['meta', { name: 'apple-mobile-web-app-status-bar-style' }]
   ],
   themeConfig: {
-    repo: 'YoFoon/FE-FACE',
+    repo: 'YoFoon/fe-face',
     editLinks: true,
     locales: {
       '/': {
@@ -71,4 +71,4 @@ module.exports = () => ({
     ]
   ],
   extraWatchFiles: ['.vuepress/nav/zh.js']
-})
+}

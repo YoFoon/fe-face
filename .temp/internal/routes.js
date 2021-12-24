@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "/Users/yofoon/Documents/mayf/FE-FACE/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
+import GlobalLayout from "/Users/yofoon/Documents/mayf/fe-face/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-40d09502",
+    name: "v-ae8bcdfc",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-40d09502").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ae8bcdfc").then(next)
     },
   },
   {
@@ -21,131 +21,155 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-3112c2a9",
-    path: "/blog/20200414-hide-element.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3112c2a9").then(next)
-    },
-  },
-  {
-    name: "v-3852c299",
-    path: "/blog/20200414-expiration-time.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3852c299").then(next)
-    },
-  },
-  {
-    name: "v-7757c222",
+    name: "v-25f3ca22",
     path: "/blog/20200414-enqueue-update.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7757c222").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-25f3ca22").then(next)
     },
   },
   {
-    name: "v-7a993a79",
+    name: "v-cbba82ae",
+    path: "/blog/20200414-hide-element.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-cbba82ae").then(next)
+    },
+  },
+  {
+    name: "v-16223679",
     path: "/blog/20200414-intersection-observer.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a993a79").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-16223679").then(next)
     },
   },
   {
-    name: "v-fcb09c0e",
-    path: "/blog/20200414-react-data-struct.html",
+    name: "v-071482ce",
+    path: "/blog/20200414-expiration-time.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fcb09c0e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-071482ce").then(next)
     },
   },
   {
-    name: "v-37b5d719",
-    path: "/blog/20200414-schedule-work.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-37b5d719").then(next)
-    },
-  },
-  {
-    name: "v-2b3ba319",
+    name: "v-24fec1ce",
     path: "/blog/20200414-jsx-2-virtual-dom.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2b3ba319").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-24fec1ce").then(next)
     },
   },
   {
-    name: "v-2c3d826d",
+    name: "v-43ecadf9",
+    path: "/blog/20200414-react-data-struct.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-43ecadf9").then(next)
+    },
+  },
+  {
+    name: "v-73917e6d",
     path: "/blog/20200414-react-dom-render.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2c3d826d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-73917e6d").then(next)
     },
   },
   {
-    name: "v-67b95619",
-    path: "/blog/20200422-ye-mian-zhu-ru-50-wan-ge-li.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-67b95619").then(next)
-    },
-  },
-  {
-    name: "v-074092da",
-    path: "/blog/20200424-qian-duan-gong-cheng-hua.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-074092da").then(next)
-    },
-  },
-  {
-    name: "v-0f22d593",
+    name: "v-37d4d193",
     path: "/blog/20200414-shell-push-git.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0f22d593").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-37d4d193").then(next)
     },
   },
   {
-    name: "v-6f69098e",
+    name: "v-c69259ce",
+    path: "/blog/20200414-schedule-work.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c69259ce").then(next)
+    },
+  },
+  {
+    name: "v-523a7739",
     path: "/blog/20200421-wang-editor-add-upload-file.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6f69098e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-523a7739").then(next)
     },
   },
   {
-    name: "v-5781b7b9",
-    path: "/blog/20200509-node-big-text.html",
+    name: "v-1caf5bce",
+    path: "/blog/20200422-ye-mian-zhu-ru-50-wan-ge-li.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5781b7b9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1caf5bce").then(next)
     },
   },
   {
-    name: "v-8981050e",
-    path: "/blog/20200430-ArrayBuffer-Blob-File.html",
+    name: "v-743bb293",
+    path: "/blog/20200424-qian-duan-gong-cheng-hua.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8981050e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-743bb293").then(next)
     },
   },
   {
-    name: "v-0d8a671a",
+    name: "v-a335fdfe",
+    path: "/blog/20200914-tong-guo-localStorage-tong-yuan-fa-song-xin-xi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a335fdfe").then(next)
+    },
+  },
+  {
+    name: "v-19fbf811",
+    path: "/blog/20200605-monit-jiagou.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-19fbf811").then(next)
+    },
+  },
+  {
+    name: "v-5d64c873",
     path: "/blog/20200428-BitMap.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0d8a671a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5d64c873").then(next)
     },
   },
   {
-    name: "v-c7e05b38",
+    name: "v-56c87979",
+    path: "/blog/20200430-ArrayBuffer-Blob-File.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-56c87979").then(next)
+    },
+  },
+  {
+    name: "v-86fa988e",
+    path: "/blog/20200509-node-big-text.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-86fa988e").then(next)
+    },
+  },
+  {
+    name: "v-4d874763",
+    path: "/knowledge/WebpackHMR.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4d874763").then(next)
+    },
+  },
+  {
+    name: "v-57e15338",
     path: "/knowledge/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c7e05b38").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-57e15338").then(next)
     },
   },
   {
@@ -153,19 +177,19 @@ export const routes = [
     redirect: "/knowledge/"
   },
   {
-    name: "v-2d45693a",
-    path: "/knowledge/WebpackHMR.html",
+    name: "v-4306a4ce",
+    path: "/knowledge/algorithm.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2d45693a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4306a4ce").then(next)
     },
   },
   {
-    name: "v-e836351c",
+    name: "v-5e8d2d1c",
     path: "/blog/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e836351c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5e8d2d1c").then(next)
     },
   },
   {
@@ -173,435 +197,427 @@ export const routes = [
     redirect: "/blog/"
   },
   {
-    name: "v-d08f7442",
+    name: "v-8f7f7c42",
     path: "/knowledge/abstract.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d08f7442").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-8f7f7c42").then(next)
     },
   },
   {
-    name: "v-7ff89cce",
-    path: "/knowledge/algorithm.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7ff89cce").then(next)
-    },
-  },
-  {
-    name: "v-555bd351",
-    path: "/knowledge/book.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-555bd351").then(next)
-    },
-  },
-  {
-    name: "v-2ae55c39",
+    name: "v-59f85839",
     path: "/knowledge/ast.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2ae55c39").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-59f85839").then(next)
     },
   },
   {
-    name: "v-4dbd18d9",
+    name: "v-4f5814d9",
     path: "/knowledge/babelPlugin.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4dbd18d9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4f5814d9").then(next)
     },
   },
   {
-    name: "v-3f217679",
-    path: "/knowledge/cache.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3f217679").then(next)
-    },
-  },
-  {
-    name: "v-e560960e",
+    name: "v-30b29e0e",
     path: "/knowledge/browser.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e560960e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-30b29e0e").then(next)
     },
   },
   {
-    name: "v-5e0cccd9",
+    name: "v-e5c06e4e",
     path: "/knowledge/cdn.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e0cccd9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e5c06e4e").then(next)
     },
   },
   {
-    name: "v-e7bdce4e",
+    name: "v-74567279",
+    path: "/knowledge/cache.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-74567279").then(next)
+    },
+  },
+  {
+    name: "v-7d53d64e",
     path: "/knowledge/chain.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e7bdce4e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7d53d64e").then(next)
     },
   },
   {
-    name: "v-2484e966",
-    path: "/knowledge/common.html",
+    name: "v-0b9fcf51",
+    path: "/knowledge/book.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2484e966").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0b9fcf51").then(next)
     },
   },
   {
-    name: "v-91bc43ce",
+    name: "v-33964bce",
     path: "/knowledge/css.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-91bc43ce").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-33964bce").then(next)
     },
   },
   {
-    name: "v-00fa9bd9",
-    path: "/knowledge/deepclone.html",
+    name: "v-acb8f166",
+    path: "/knowledge/common.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-00fa9bd9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-acb8f166").then(next)
     },
   },
   {
-    name: "v-7c20108e",
-    path: "/knowledge/domRender.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7c20108e").then(next)
-    },
-  },
-  {
-    name: "v-749a42b9",
+    name: "v-d9d9828e",
     path: "/knowledge/devsProxy.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-749a42b9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d9d9828e").then(next)
     },
   },
   {
-    name: "v-182d8439",
+    name: "v-47408039",
     path: "/knowledge/dom.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-182d8439").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-47408039").then(next)
     },
   },
   {
-    name: "v-6f34450e",
-    path: "/knowledge/event.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6f34450e").then(next)
-    },
-  },
-  {
-    name: "v-147abb0e",
-    path: "/knowledge/eventLoop.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-147abb0e").then(next)
-    },
-  },
-  {
-    name: "v-0dc94419",
+    name: "v-0f644019",
     path: "/knowledge/engineering.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0dc94419").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0f644019").then(next)
     },
   },
   {
-    name: "v-47cb2ab9",
-    path: "/knowledge/fiber.html",
+    name: "v-1f7397d9",
+    path: "/knowledge/deepclone.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-47cb2ab9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1f7397d9").then(next)
     },
   },
   {
-    name: "v-f3518f36",
-    path: "/knowledge/hoisting.html",
+    name: "v-143b9e79",
+    path: "/knowledge/eventLoop.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f3518f36").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-143b9e79").then(next)
     },
   },
   {
-    name: "v-266f66d9",
+    name: "v-3f2e188e",
+    path: "/knowledge/domRender.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3f2e188e").then(next)
+    },
+  },
+  {
+    name: "v-04ca4d0e",
+    path: "/knowledge/event.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-04ca4d0e").then(next)
+    },
+  },
+  {
+    name: "v-fe733a4e",
     path: "/knowledge/execute.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-266f66d9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-fe733a4e").then(next)
     },
   },
   {
-    name: "v-6cfbfeda",
+    name: "v-b2419736",
+    path: "/knowledge/hoisting.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b2419736").then(next)
+    },
+  },
+  {
+    name: "v-7fc5fc93",
     path: "/knowledge/http.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6cfbfeda").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7fc5fc93").then(next)
     },
   },
   {
-    name: "v-79eaae66",
+    name: "v-7d0026b9",
+    path: "/knowledge/fiber.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7d0026b9").then(next)
+    },
+  },
+  {
+    name: "v-794ea4cd",
     path: "/knowledge/html.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-79eaae66").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-794ea4cd").then(next)
     },
   },
   {
-    name: "v-7163f779",
-    path: "/knowledge/http2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7163f779").then(next)
-    },
-  },
-  {
-    name: "v-42f01499",
+    name: "v-448b1099",
     path: "/knowledge/httpWritten.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-42f01499").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-448b1099").then(next)
     },
   },
   {
-    name: "v-0adb5af9",
-    path: "/knowledge/immutable.html",
+    name: "v-b2ce190e",
+    path: "/knowledge/http2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0adb5af9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b2ce190e").then(next)
     },
   },
   {
-    name: "v-70928519",
+    name: "v-b470fdce",
     path: "/knowledge/https.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-70928519").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b470fdce").then(next)
     },
   },
   {
-    name: "v-e4b09e4e",
-    path: "/knowledge/jsBasic.html",
+    name: "v-295456f9",
+    path: "/knowledge/immutable.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e4b09e4e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-295456f9").then(next)
     },
   },
   {
-    name: "v-6291f879",
-    path: "/knowledge/jsWritten.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6291f879").then(next)
-    },
-  },
-  {
-    name: "v-4dfa88d7",
-    path: "/knowledge/load.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4dfa88d7").then(next)
-    },
-  },
-  {
-    name: "v-016450d9",
-    path: "/knowledge/mechanism.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-016450d9").then(next)
-    },
-  },
-  {
-    name: "v-0185f839",
+    name: "v-36baf439",
     path: "/knowledge/jsonp.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0185f839").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-36baf439").then(next)
     },
   },
   {
-    name: "v-214d67a1",
-    path: "/knowledge/memory.html",
+    name: "v-3002a64e",
+    path: "/knowledge/jsBasic.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-214d67a1").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3002a64e").then(next)
     },
   },
   {
-    name: "v-121f889f",
-    path: "/knowledge/node.html",
+    name: "v-1fdd4cd9",
+    path: "/knowledge/mechanism.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-121f889f").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1fdd4cd9").then(next)
     },
   },
   {
-    name: "v-2940bd11",
-    path: "/knowledge/reactError.html",
+    name: "v-043e84d7",
+    path: "/knowledge/load.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2940bd11").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-043e84d7").then(next)
     },
   },
   {
-    name: "v-7595c25f",
-    path: "/knowledge/reactivity.html",
+    name: "v-fdea170e",
+    path: "/knowledge/jsWritten.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7595c25f").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-fdea170e").then(next)
     },
   },
   {
-    name: "v-d88374ce",
+    name: "v-6e197cce",
     path: "/knowledge/react.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d88374ce").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6e197cce").then(next)
     },
   },
   {
-    name: "v-553f5a0e",
+    name: "v-459938be",
+    path: "/knowledge/memory.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-459938be").then(next)
+    },
+  },
+  {
+    name: "v-e52a8dde",
+    path: "/knowledge/reactError.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e52a8dde").then(next)
+    },
+  },
+  {
+    name: "v-6f38f6c2",
+    path: "/knowledge/node.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6f38f6c2").then(next)
+    },
+  },
+  {
+    name: "v-4c808342",
+    path: "/knowledge/reactivity.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4c808342").then(next)
+    },
+  },
+  {
+    name: "v-184d620e",
     path: "/knowledge/reactHook.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-553f5a0e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-184d620e").then(next)
     },
   },
   {
-    name: "v-01b7d88e",
+    name: "v-fa3de08e",
     path: "/knowledge/requestHeader.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-01b7d88e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-fa3de08e").then(next)
     },
   },
   {
-    name: "v-686197b9",
+    name: "v-c4d2d88e",
     path: "/knowledge/redux.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-686197b9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c4d2d88e").then(next)
     },
   },
   {
-    name: "v-0c1110ba",
+    name: "v-1a7f73a3",
     path: "/knowledge/security.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0c1110ba").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1a7f73a3").then(next)
     },
   },
   {
-    name: "v-0b4cfdde",
+    name: "v-938105de",
     path: "/knowledge/router.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0b4cfdde").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-938105de").then(next)
     },
   },
   {
-    name: "v-687108f6",
+    name: "v-276110f6",
     path: "/knowledge/setState.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-687108f6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-276110f6").then(next)
     },
   },
   {
-    name: "v-1d661d81",
-    path: "/knowledge/string.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1d661d81").then(next)
-    },
-  },
-  {
-    name: "v-4c32e132",
+    name: "v-dfaae932",
     path: "/knowledge/tree.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4c32e132").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-dfaae932").then(next)
     },
   },
   {
-    name: "v-0c278899",
+    name: "v-4d67ccfe",
+    path: "/knowledge/string.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4d67ccfe").then(next)
+    },
+  },
+  {
+    name: "v-3b3a8499",
     path: "/knowledge/url.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0c278899").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3b3a8499").then(next)
     },
   },
   {
-    name: "v-721afe59",
+    name: "v-bda40b4e",
     path: "/knowledge/tcp.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-721afe59").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-bda40b4e").then(next)
     },
   },
   {
-    name: "v-77a343b9",
-    path: "/knowledge/vue.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-77a343b9").then(next)
-    },
-  },
-  {
-    name: "v-2e4f9896",
+    name: "v-4d022fb5",
     path: "/knowledge/virtualDom.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e4f9896").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4d022fb5").then(next)
     },
   },
   {
-    name: "v-5f549bd9",
-    path: "/knowledge/webpack.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5f549bd9").then(next)
-    },
-  },
-  {
-    name: "v-0c77d239",
+    name: "v-df96638e",
     path: "/knowledge/webpackLoader.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0c77d239").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-df96638e").then(next)
     },
   },
   {
-    name: "v-a444738e",
-    path: "/knowledge/webpackPlugin.html",
+    name: "v-b293808e",
+    path: "/knowledge/vue.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a444738e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b293808e").then(next)
     },
   },
   {
-    name: "v-50fea499",
+    name: "v-8ca8d04e",
+    path: "/knowledge/webpack.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8ca8d04e").then(next)
+    },
+  },
+  {
+    name: "v-5688bece",
     path: "/knowledge/webpackMoudle.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-50fea499").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5688bece").then(next)
     },
   },
   {
-    name: "v-190c22b9",
+    name: "v-45a1c28e",
     path: "/knowledge/webpackPluginDesign.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-190c22b9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-45a1c28e").then(next)
+    },
+  },
+  {
+    name: "v-319ac239",
+    path: "/knowledge/webpackPlugin.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-319ac239").then(next)
     },
   },
   {
